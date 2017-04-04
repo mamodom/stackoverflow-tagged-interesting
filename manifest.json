@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Stackoverflow-tagged-interesting",
+  "description": "This is an extensions that changes the highlight color in stackoverflow's homepage",
+  "version": "0.1",
+  "content_scripts": [{
+    "css": [ "tagged-interesting.css" ],
+    "matches": [ "http://stackoverflow.com/*" ]
+  }]
+}
