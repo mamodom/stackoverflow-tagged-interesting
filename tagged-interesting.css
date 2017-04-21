@@ -1,3 +1,7 @@
 .tagged-interesting {
     background-color: #ffeeb3 !important;
 }
+
+._highlighted {
+    background-color: #ffeeb3 !important;
+}
