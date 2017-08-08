@@ -11,6 +11,6 @@
   "author": "mamodom",
   "content_scripts": [{
     "css": [ "tagged-interesting.css" ],
-    "matches": [ "http://stackoverflow.com/*" ]
+    "matches": [ "*://stackoverflow.com/*" ]
   }]
 }
